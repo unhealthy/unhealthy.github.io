@@ -1,0 +1,382 @@
+[
+	{
+  "income": [
+    {
+      "name": "SALARY",
+      "amount": 8000,
+      "date": "2015-08-30",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    }
+  ],
+  "investigate": [
+  ],
+  "outcome": [
+    {
+      "name": "Rent House",
+      "amount": "1600",
+      "date": "2015-09-17",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Meal",
+      "amount": "40",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Day",
+      "times": 800
+    },
+    {
+      "name": "Play",
+      "amount": "1200",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Throw away",
+      "amount": "800",
+      "date": "2015-09-22",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Tuition Fee1",
+      "amount": "2000",
+      "date": "2015-09-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee2",
+      "amount": "2000",
+      "date": "2016-02-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee3",
+      "amount": "2000",
+      "date": "2016-09-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee4",
+      "amount": "2000",
+      "date": "2017-02-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    }
+  ]
+},
+{
+  "income": [
+    {
+      "name": "SALARY",
+      "amount": 8000,
+      "date": "2015-08-30",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    }
+  ],
+  "investigate": [
+      {
+      "name": "YueBao",
+      "amount": 1800,
+      "date": "2015-09-01",
+      "earningRatio": 0.0025,
+      "earningRatioUnit": "Month",
+      "endDate": "2017-09-01",
+      "isTheSameEndDate": true,
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 24
+    }
+  ],
+  "outcome": [
+    {
+      "name": "Rent House",
+      "amount": "1600",
+      "date": "2015-09-17",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Meal",
+      "amount": "40",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Day",
+      "times": 800
+    },
+    {
+      "name": "Play",
+      "amount": "1200",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Tuition Fee1",
+      "amount": "2000",
+      "date": "2015-09-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee2",
+      "amount": "2000",
+      "date": "2016-02-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee3",
+      "amount": "2000",
+      "date": "2016-09-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee4",
+      "amount": "2000",
+      "date": "2017-02-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    }
+  ]
+},
+{
+  "income": [
+    {
+      "name": "SALARY",
+      "amount": 8000,
+      "date": "2015-08-30",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    }
+  ],
+  "investigate": [
+      {
+      "name": "YueBao",
+      "amount": 1800,
+      "date": "2015-09-01",
+      "earningRatio": 0.0025,
+      "earningRatioUnit": "Month",
+      "endDate": "2017-09-01",
+      "isTheSameEndDate": true,
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 24
+    },
+    {
+      "name": "YueBao2",
+      "amount": 3000,
+      "date": "2016-02-01",
+      "earningRatio": 0.0025,
+      "earningRatioUnit": "Month",
+      "endDate": "2017-09-01",
+      "isTheSameEndDate": true,
+      "intervalTimes": 5,
+      "interval": "Month",
+      "times": 4
+    }
+  ],
+  "outcome": [
+    {
+      "name": "Rent House",
+      "amount": "1600",
+      "date": "2015-09-17",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Meal",
+      "amount": "40",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Day",
+      "times": 800
+    },
+    {
+      "name": "Play",
+      "amount": "1200",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Tuition Fee1",
+      "amount": "2000",
+      "date": "2015-09-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee2",
+      "amount": "2000",
+      "date": "2016-02-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee3",
+      "amount": "2000",
+      "date": "2016-09-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee4",
+      "amount": "2000",
+      "date": "2017-02-07",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    }
+  ]
+},
+{
+  "income": [
+    {
+      "name": "SALARY",
+      "amount": 8000,
+      "date": "2015-08-30",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    }
+  ],
+  "investigate": [
+      {
+      "name": "YueBao",
+      "amount": 1800,
+      "date": "2015-09-01",
+      "earningRatio": 0.0025,
+      "earningRatioUnit": "Month",
+      "endDate": "2017-09-01",
+      "isTheSameEndDate": true,
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 24
+    },
+    {
+      "name": "YueBao2",
+      "amount": 3000,
+      "date": "2016-02-01",
+      "earningRatio": 0.0025,
+      "earningRatioUnit": "Month",
+      "endDate": "2017-09-01",
+      "isTheSameEndDate": true,
+      "intervalTimes": 5,
+      "interval": "Month",
+      "times": 4
+    }
+  ],
+  "outcome": [
+    {
+      "name": "Rent House",
+      "amount": "1600",
+      "date": "2015-10-29",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 24
+    },
+    {
+      "name": "Rent House",
+      "amount": "1600",
+      "date": "2017-09-17",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 1
+    },
+    {
+      "name": "Meal1",
+      "amount": "40",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Day",
+      "times": 3
+    },
+    {
+      "name": "Meal2",
+      "amount": "40",
+      "date": "2017-09-04",
+      "intervalTimes": 1,
+      "interval": "Day",
+      "times": 26
+    },
+    {
+      "name": "Meal3",
+      "amount": "1220",
+      "date": "2015-10-29",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 24
+    },
+    {
+      "name": "Play",
+      "amount": "1200",
+      "date": "2015-09-01",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 25
+    },
+    {
+      "name": "Tuition Fee1",
+      "amount": "2000",
+      "date": "2015-10-29",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee2",
+      "amount": "2000",
+      "date": "2016-03-29",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee3",
+      "amount": "2000",
+      "date": "2016-10-29",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    },
+    {
+      "name": "Tuition Fee4",
+      "amount": "2000",
+      "date": "2017-03-29",
+      "intervalTimes": 1,
+      "interval": "Month",
+      "times": 4
+    }
+  ]
+}
+]

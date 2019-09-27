@@ -1,0 +1,21 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /about/
+Allow: /blog/
+Allow: /categories/
+Allow: /homepage/
+Allow: /page/
+Allow: /tags/
+
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /upload/
+Disallow: /vendors/
+
+Sitemap: http://chenzhutian.org/sitemap.xml
+Sitemap: http://www.chenzhutian.org/sitemap.xml
+Sitemap: http://chenzhutian.org/baidusitemap.xml
+Sitemap: http://www.chenzhutian.org/baidusitemap.xml
