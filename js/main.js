@@ -74,12 +74,12 @@ function pubCard(data, authorLookup) {
   <div class="pub-card">
   <div class="columns">
     <div class="column is-offset-1-mobile is-10-mobile">
-      <figure class="image is-5by4">
+      <figure class="image is-3by2">
         <img id="${data.id}" src="projects/${data.id}/${data.thumbnail}" />
       </figure>
     </div>
 
-    <div class="column is-four-fifths">
+    <div class="column is-9">
       <div class="content">
         <p class="title">
           ${data.title}
