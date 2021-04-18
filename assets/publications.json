@@ -1,8 +1,9 @@
 [
     {
+        "id": "2021_ml4vis",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2021_ml4vis.png",
+        "thumbnail": "tn.png",
         "title": "Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS",
         "authors": "Qianwen Wang, Zhutian Chen, Yong Wang, Huamin Qu",
         "venue": {
@@ -16,9 +17,10 @@
         }
     },
     {
+        "id": "2020_shuttlespace",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2020_shuttlespace/tn.png",
+        "thumbnail": "tn.png",
         "title": "ShuttleSpace: Exploring and Analyzing Movement Trajectory in Immersive Visualization",
         "authors": "Shuainan Ye, Zhutian Chen, Xiangtong Chu, Yifan Wang, Siwei Fu, Lejun Shen, Kun Zhou, and Yingcai Wu",
         "venue": {
@@ -31,9 +33,10 @@
         }
     },
     {
+        "id": "2020_discrimination",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2020_discrimination/tn.png",
+        "thumbnail": "tn.png",
         "title": "Visual Analysis of Discrimination in Machine Learning",
         "authors": " Qianwen Wang, Zhenhua Xu, Zhutian Chen, Yong Wang, Shixia Liu, and Huamin Qu",
         "venue": {
@@ -47,9 +50,10 @@
         }
     },
     {
+        "id": "2020_arposter",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2020_arposter/tn.jpg",
+        "thumbnail": "tn.jpg",
         "title": "Augmenting Static Visualizations with PapARVis Designer",
         "authors": "Zhutian Chen, Wai Tong, Qianwen Wang, Benjamin Bach, and Huamin Qu",
         "venue": {
@@ -64,9 +68,11 @@
         }
     },
     {
+        "id": "2019_autotimeline",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2019_autotimeline/tn.jpg",
+        "gif": "gif.gif",
+        "thumbnail": "tn.jpg",
         "title": "Towards Automated Infographic Design: Deep Learning-based Auto-Extraction of Extensible Timeline",
         "authors": "Zhutian Chen, Yun Wang, Qianwen Wang, Yong Wang, and Huamin Qu",
         "venue": {
@@ -81,9 +87,11 @@
         }
     },
     {
+        "id": "2019_lassonet",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2019_lassonet/tn.jpg",
+        "gif": "gif.gif",
+        "thumbnail": "tn.jpg",
         "title": "LassoNet: Deep Lasso-Selection of 3D Point Clouds",
         "authors": "Zhutian Chen, Wei Zeng, Zhiguang Yang, Lingyun Yu, Chi-Wing Fu, and Huamin Qu",
         "venue": {
@@ -99,9 +107,11 @@
         }
     },
     {
+        "id": "2018_marvist",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2018_marvist/tn.jpg",
+        "gif": "gif.gif",
+        "thumbnail": "tn.jpg",
         "title": "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality",
         "authors": "Zhutian Chen, Yijia Su, Yifang Wang, Qianwen Wang, Huamin Qu, Yingcai Wu",
         "venue": {
@@ -117,9 +127,10 @@
         }
     },
     {
+        "id": "2017_immersiveurbananalytics",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2017_immersiveurbananalytics/tn.jpg",
+        "thumbnail": "tn.jpg",
         "title": "Exploring the Design Space of Immersive Urban Analytics",
         "authors": "Zhutian Chen, Yifang Wang, Tianchen Sun, Xiang Gao, Wei Chen, Zhigeng Pan, Huamin Qu, Yingcai Wu",
         "venue": {
@@ -133,9 +144,10 @@
         }
     },
     {
+        "id": "2017_streamexplorer",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2017_streamexplorer/tn.jpg",
+        "thumbnail": "tn.jpg",
         "title": "StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams",
         "authors": "Yingcai Wu, Zhutian Chen, Guodao Sun, Xiao Xie, Nan Cao, Shixia Liu, Weiwei Cui",
         "venue": {
@@ -150,9 +162,10 @@
         }
     },
     {
+        "id": "2017_immersiveexplodedviews",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2017_immersiveexplodedviews/tn.jpg",
+        "thumbnail": "tn.jpg",
         "title": "Immersive Urban Analytics through Exploded Views",
         "authors": "Zhutian Chen, Huamin Qu, Yingcai Wu",
         "venue": {
@@ -165,9 +178,10 @@
         }
     },
     {
+        "id": "2016_animatednarrative",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2016_animatednarrative/tn.jpg",
+        "thumbnail": "tn.jpg",
         "title": "Animated Narrative Visualization for Video Clickstream Data",
         "authors": "Yun Wang, Zhutian Chen, Quan Li, Xiaojuan Ma, Qiong Luo, Huamin Qu",
         "venue": {
@@ -182,9 +196,11 @@
         }
     },
     {
+        "id": "2016_blossom",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2016_blossom/tn.jpg",
+        "gif": "gif.gif",
+        "thumbnail": "tn.jpg",
         "title": "Blossom: Design of a Tangible Interface for Improving Intergenerational Communication for the Elderly",
         "authors": "Mingqian Zhao, Zhutian Chen, Ke Lu, Chaoran Li, Huamin Qu, Xiaojuan Ma",
         "venue": {
@@ -199,9 +215,10 @@
         }
     },
     {
+        "id": "2016_stac",
         "public": true,
         "award": false,
-        "thumbnail": "projects/2016_stac/tn.jpg",
+        "thumbnail": "tn.jpg",
         "title": "STAC: Enhancing Stacked Graphs for Time Series Analysis",
         "authors": "Yun Wang, Tongshuang Wu, Zhutian Chen, Qiong Luo, Huamin Qu",
         "venue": {

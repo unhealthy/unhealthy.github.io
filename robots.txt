@@ -1,13 +1,9 @@
 # hexo robots.txt
 User-agent: *
 Allow: /
-Allow: /archives/
 Allow: /about/
 Allow: /blog/
-Allow: /categories/
-Allow: /homepage/
 Allow: /page/
-Allow: /tags/
 
 Disallow: /css/
 Disallow: /images/

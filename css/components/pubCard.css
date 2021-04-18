@@ -40,7 +40,8 @@
 }
 
 .pub-card .content .venue span.short {
-  color: #212121;
+  /* color: #212121; */
+  font-weight: 600;
 }
 
 .pub-card .content .link {

@@ -60,25 +60,6 @@ function pubCard(data, authorLookup) {
     })
     .join(", ");
 
-  const title =
-    data.title == ""
-      ? data.name
-      : `${data.name} <span class="sub"> ${data.title}</span>`;
-
-  const coming_soon = data.thumbnail.includes("comingsoon");
-
-  // parse website
-  if (data.website && data.website.startsWith('/')) {
-    data.website = data.website.split(':')[0]
-  }
-
-  const extenalLink = {
-    paper: { icon: "open-outline", text: ".pdf" },
-    video: { icon: "logo-youtube", text: "video" },
-    website: { icon: "link-sharp", text: "site" },
-    // code: { icon: "fa-home" },
-  };
-
   const links = Object.keys(data.links)
     .map(key => ` <span>
     <a
@@ -94,7 +75,7 @@ function pubCard(data, authorLookup) {
   <div class="columns">
     <div class="column is-offset-1-mobile is-10-mobile">
       <figure class="image is-5by4">
-        <img src="${data.thumbnail}" />
+        <img id="${data.id}" src="projects/${data.id}/${data.thumbnail}" />
       </figure>
     </div>
 
@@ -128,6 +109,27 @@ async function loadAndRenderPublications() {
     "beforeend",
     pubs.map((pub) => pubCard(pub, {})).join("")
   );
+
+  pubs.filter(pub => pub.gif)
+    .forEach(pub => {
+      const id = pub.id
+      const gifSrc = `projects/${id}/gif.gif`
+      const img = new Image()
+  
+      const x = document.getElementById(id);
+      let retry = 0
+  
+      img.onload = function () {
+        x.src = img.src;
+      };
+      img.onerror = function () {
+        if (retry < 5) {
+          img.src = gifSrc
+          ++retry
+        }
+      }
+      img.src = gifSrc
+    })
 }
 
 /** Render the page */
