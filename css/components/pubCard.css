@@ -1,0 +1,67 @@
+.pub-card {
+  padding: 1.5rem 0;
+}
+
+.pub-card:not(:last-child) {
+  border-bottom: thin solid transparent;
+  border-image: linear-gradient(to right, grey, 20%, transparent);
+  border-image-slice: 1;
+  border-left: 0;
+  border-top: 0;
+}
+
+.pub-card .image {
+  border: 1px solid #ddd;
+}
+.pub-card .image img {
+  padding: 3px;
+}
+
+.pub-card .content p {
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+.pub-card .content .title {
+  color: #4682b4;
+  font-size: 1.2rem;
+}
+
+.pub-card .content .authors {
+  color: #424242;
+}
+
+/* .pub-card .content .authors strong {
+  font-weight: bold;
+} */
+
+.pub-card .content .venue {
+  color: #4a4a4a;
+}
+
+.pub-card .content .venue span.short {
+  color: #212121;
+}
+
+.pub-card .content .link {
+  font-size: 0.9rem;
+}
+
+.pub-card .content .link a {
+  color: #555;
+}
+
+.pub-card .content .link span:first-child::before {
+  content: "[ ";
+  color: #7d7d7d;
+}
+
+.pub-card .content .link span:not(:first-child)::before {
+  content: " | ";
+  color: #7d7d7d;
+}
+
+.pub-card .content .link span:last-child::after {
+  content: " ]";
+  color: #7d7d7d;
+}

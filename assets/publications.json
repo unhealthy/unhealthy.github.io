@@ -1,0 +1,217 @@
+[
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2021_ml4vis.png",
+        "title": "Applying Machine Learning Advances to Data Visualization: A Survey on ML4VIS",
+        "authors": "Qianwen Wang, Zhutian Chen, Yong Wang, Huamin Qu",
+        "venue": {
+            "short": "arXiv",
+            "long": "",
+            "year": 2020
+        },
+        "links": {
+            "PDF": "//arxiv.org/pdf/2012.00467.pdf",
+            "Webpage": "//ml4vis.github.io/"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2020_shuttlespace/tn.png",
+        "title": "ShuttleSpace: Exploring and Analyzing Movement Trajectory in Immersive Visualization",
+        "authors": "Shuainan Ye, Zhutian Chen, Xiangtong Chu, Yifan Wang, Siwei Fu, Lejun Shen, Kun Zhou, and Yingcai Wu",
+        "venue": {
+            "short": "InfoVis'20",
+            "long": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2020
+        },
+        "links": {
+            "PDF": "//www.ycwu.org/Files/ShuttleSpace.pdf"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2020_discrimination/tn.png",
+        "title": "Visual Analysis of Discrimination in Machine Learning",
+        "authors": " Qianwen Wang, Zhenhua Xu, Zhutian Chen, Yong Wang, Shixia Liu, and Huamin Qu",
+        "venue": {
+            "short": "InfoVis'20",
+            "long": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2020
+        },
+        "links": {
+            "PDF": "//arxiv.org/abs/2007.15182",
+            "Video": "//youtu.be/-K5ZXfMNLVY"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2020_arposter/tn.jpg",
+        "title": "Augmenting Static Visualizations with PapARVis Designer",
+        "authors": "Zhutian Chen, Wai Tong, Qianwen Wang, Benjamin Bach, and Huamin Qu",
+        "venue": {
+            "short": "CHI'20",
+            "long": "ACM Conference on Human Factors in Computing Systems",
+            "year": 2020
+        },
+        "links": {
+            "PDF": "projects/2020_arposter/paper.pdf",
+            "Video": "//vimeo.com/396008882",
+            "Code": "//github.com/PapARVis"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2019_autotimeline/tn.jpg",
+        "title": "Towards Automated Infographic Design: Deep Learning-based Auto-Extraction of Extensible Timeline",
+        "authors": "Zhutian Chen, Yun Wang, Qianwen Wang, Yong Wang, and Huamin Qu",
+        "venue": {
+            "short": "InfoVis'19",
+            "long": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2019
+        },
+        "links": {
+            "PDF": "projects/2019_autotimeline/paper.pdf",
+            "Webpage": "//chenzhutian.org/auto-infog-timeline/",
+            "Code": "//github.com/chenzhutian/auto-infog-timeline"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2019_lassonet/tn.jpg",
+        "title": "LassoNet: Deep Lasso-Selection of 3D Point Clouds",
+        "authors": "Zhutian Chen, Wei Zeng, Zhiguang Yang, Lingyun Yu, Chi-Wing Fu, and Huamin Qu",
+        "venue": {
+            "short": "SciVis'19",
+            "long": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2019
+        },
+        "links": {
+            "PDF": "projects/2019_lassonet/paper.pdf",
+            "Webpage": "//lassonet.github.io/",
+            "Code": "//github.com/lassonet/lassonet",
+            "Video": "projects/2019_lassonet/video.mp4"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2018_marvist/tn.jpg",
+        "title": "MARVisT: Authoring Glyph-based Visualization in Mobile Augmented Reality",
+        "authors": "Zhutian Chen, Yijia Su, Yifang Wang, Qianwen Wang, Huamin Qu, Yingcai Wu",
+        "venue": {
+            "short": "TVCG",
+            "long": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2018
+        },
+        "links": {
+            "PDF": "projects/2018_marvist/paper.pdf",
+            "Webpage": "//chenzhutian.org/marvist",
+            "Video": "projects/2018_marvist/video.mp4",
+            "DOI": "//doi.org/10.1109/TVCG.2019.2892415"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2017_immersiveurbananalytics/tn.jpg",
+        "title": "Exploring the Design Space of Immersive Urban Analytics",
+        "authors": "Zhutian Chen, Yifang Wang, Tianchen Sun, Xiang Gao, Wei Chen, Zhigeng Pan, Huamin Qu, Yingcai Wu",
+        "venue": {
+            "short": "VI",
+            "long": "Visual Informatics",
+            "year": 2017
+        },
+        "links": {
+            "PDF": "projects/2017_immersiveurbananalytics/paper.pdf",
+            "DOI": "//doi.org/10.1016/j.visinf.2017.11.002"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2017_streamexplorer/tn.jpg",
+        "title": "StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams",
+        "authors": "Yingcai Wu, Zhutian Chen, Guodao Sun, Xiao Xie, Nan Cao, Shixia Liu, Weiwei Cui",
+        "venue": {
+            "short": "TVCG",
+            "long": "IEEE Transactions on Visualization and Computer Graphics",
+            "year": 2017
+        },
+        "links": {
+            "PDF": "projects/2017_streamexplorer/paper.pdf",
+            "Video": "//www.ycwu.org/Files/StreamExplorer.mp4",
+            "DOI": "//doi.org/10.1109/TVCG.2017.2764459"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2017_immersiveexplodedviews/tn.jpg",
+        "title": "Immersive Urban Analytics through Exploded Views",
+        "authors": "Zhutian Chen, Huamin Qu, Yingcai Wu",
+        "venue": {
+            "short": "Immersive Analytics",
+            "long": "Workshop Proceedings of IEEE VIS",
+            "year": 2017
+        },
+        "links": {
+            "PDF": "projects/2017_immersiveexplodedviews/paper.pdf"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2016_animatednarrative/tn.jpg",
+        "title": "Animated Narrative Visualization for Video Clickstream Data",
+        "authors": "Yun Wang, Zhutian Chen, Quan Li, Xiaojuan Ma, Qiong Luo, Huamin Qu",
+        "venue": {
+            "short": "SIGGRAPH ASIA'16",
+            "long": "Proceedings of ACM SIGGRAPH ASIA Visualization Symposium",
+            "year": 2016
+        },
+        "links": {
+            "PDF": "projects/2016_animatednarrative/paper.pdf",
+            "DEMO": "//toys.chenzhutian.org/click-animation",
+            "DOI": "//doi.org/10.1145/3002151.3002155"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2016_blossom/tn.jpg",
+        "title": "Blossom: Design of a Tangible Interface for Improving Intergenerational Communication for the Elderly",
+        "authors": "Mingqian Zhao, Zhutian Chen, Ke Lu, Chaoran Li, Huamin Qu, Xiaojuan Ma",
+        "venue": {
+            "short": "ITAP'16",
+            "long": "Proceedings of ACM Interactive Technology and Ageing Populations",
+            "year": 2016
+        },
+        "links": {
+            "PDF": "projects/2016_blossom/paper.pdf",
+            "Video": "//vimeo.com/237387200",
+            "DOI": "//doi.org/10.1145/2996267.2996276"
+        }
+    },
+    {
+        "public": true,
+        "award": false,
+        "thumbnail": "projects/2016_stac/tn.jpg",
+        "title": "STAC: Enhancing Stacked Graphs for Time Series Analysis",
+        "authors": "Yun Wang, Tongshuang Wu, Zhutian Chen, Qiong Luo, Huamin Qu",
+        "venue": {
+            "short": "PacificVis'16",
+            "long": "Proceedings of IEEE Pacific Visualization Symposium",
+            "year": 2016
+        },
+        "links": {
+            "PDF": "projects/2016_stac/paper.pdf",
+            "DOI": "//doi.org/10.1109/PACIFICVIS.2016.7465277"
+        }
+    }
+]

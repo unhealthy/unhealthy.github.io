@@ -1,0 +1,67 @@
+.navbar {
+  background: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar a {
+  border-bottom: none;
+}
+
+.navbar .container.is-max-1600 {
+  max-width: 1600px;
+}
+
+.navbar-brand .navbar-item {
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+  font-size: 2rem;
+  font-family: "Linux Biolinum";
+}
+
+.navbar-end > .navbar-item {
+  color: rgb(0, 0, 0);
+  opacity: 0.2;
+}
+
+.navbar-end > .navbar-item:hover {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+.navbar-item.is-active {
+  color: rgb(0, 0, 0) !important;
+  opacity: 0.8;
+}
+
+.is-desktop-fluid {
+  max-width: none !important;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .is-desktop-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #navbar-menu-id {
+    background-color: #fff;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 15px;
+    box-shadow: none;
+  }
+
+  #navbar-menu-id .navbar-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #navbar-menu-id .navbar-item {
+    background-color: transparent !important;
+  }
+}

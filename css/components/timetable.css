@@ -1,0 +1,19 @@
+.time-table {
+  font-size: 0.9rem;
+}
+.time-table .row {
+  display: flex;
+}
+
+.time-table .row span:first-child {
+  max-width: 90px;
+  min-width: 90px;
+  text-align: right;
+}
+
+.time-table .row span:first-child::after {
+  content: "•";
+  color: #0f0f0f;
+  text-shadow: #7d7d7d 0 0 5px;
+  margin: 0 10px;
+}
