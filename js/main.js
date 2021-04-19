@@ -55,8 +55,8 @@ function pubCard(data, authorLookup) {
       author = author.trim();
 
       return author === 'Zhutian Chen'
-        ? `<strong>${author}</strong>`
-        : author
+        ? `<strong>${author.replace(/\s+/g, "&nbsp;")}</strong>`
+        : author.replace(/\s+/g, "&nbsp;");
     })
     .join(", ");
 
@@ -115,10 +115,10 @@ async function loadAndRenderPublications() {
       const id = pub.id
       const gifSrc = `projects/${id}/gif.gif`
       const img = new Image()
-  
+
       const x = document.getElementById(id);
       let retry = 0
-  
+
       img.onload = function () {
         x.src = img.src;
       };
