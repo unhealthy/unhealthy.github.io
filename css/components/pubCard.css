@@ -25,6 +25,8 @@
 .pub-card .content .title {
   color: #4682b4;
   font-size: 1.2rem;
+  /* font-family: "Linux Libertine", "Helvetica Neue Light", "Helvetica Neue"; */
+  font-weight: 600;
 }
 
 .pub-card .content .authors {

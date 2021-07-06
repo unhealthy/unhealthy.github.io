@@ -101,9 +101,23 @@ function pubCard(data, authorLookup) {
   `
 }
 
-async function loadAndRenderPublications() {
-  const pubs = await (await fetch("/assets/publications.json")).json();
+let allPubs = null
+
+/**
+ * 
+ * @param {String[]} tags 
+ */
+async function loadAndRenderPublications(tags = []) {
+  if (!allPubs) {
+    // cache
+    allPubs = await (await fetch("/assets/publications.json")).json();
+  }
+  // const pubs = await (await fetch("/assets/publications.json")).json();
   // const authors = await (await fetch("/assets/authors.json")).json();
+  const pubs = tags.length > 0 ? allPubs.filter(pub => tags.some(tag => pub.tags.includes(tag))) : allPubs
+
+  // clean existing
+  document.querySelectorAll('.pub-card').forEach(item => item.remove())
 
   document.querySelector(".publications").insertAdjacentHTML(
     "beforeend",
@@ -132,6 +146,19 @@ async function loadAndRenderPublications() {
     })
 }
 
+function tabWitcher() {
+  const tabs = document.querySelectorAll('li.pub-category')
+  tabs.forEach(tab => {
+    tab.addEventListener('click', e => {
+      document.querySelector('li.pub-category.is-active').classList.remove('is-active')
+      tab.classList.add('is-active')
+      // console.log(tab.value, e, tab)
+      const tag = tab.dataset.value
+      loadAndRenderPublications(tag ? [tag] : undefined)
+    })
+  })
+}
+
 /** Render the page */
 renderHeader();
 
@@ -141,6 +168,8 @@ loadAndRenderPublications();
 //   loadAndRenderLabPeople();
 // }
 
-
-
 renderFooter();
+
+
+/** Add event listeners */
+tabWitcher()

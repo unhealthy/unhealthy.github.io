@@ -23,6 +23,18 @@ body {
   letter-spacing: 0.1px;
 }
 
+.title {
+  font-family: "Linux Biolinum";
+}
+
+.pub-category {
+  font-family: "Linux Biolinum";
+  font-weight: 400;
+}
+.pub-category.is-active {
+  font-weight: 600;
+}
+
 hr {
   background-color: rgba(0, 0, 0, 0.05);
   border: none;
