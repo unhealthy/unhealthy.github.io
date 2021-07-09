@@ -21,6 +21,7 @@
         "id": "2020_shuttlespace",
         "public": true,
         "award": false,
+        "gif": "gif.gif",
         "thumbnail": "tn.png",
         "title": "ShuttleSpace: Exploring and Analyzing Movement Trajectory in Immersive Visualization",
         "authors": "Shuainan Ye, Zhutian Chen, Xiangtong Chu, Yifan Wang, Siwei Fu, Lejun Shen, Kun Zhou, and Yingcai Wu",
@@ -31,7 +32,7 @@
             "year": 2020
         },
         "links": {
-            "PDF": "//www.ycwu.org/Files/ShuttleSpace.pdf"
+            "PDF": "projects/2020_shuttlespace/paper.pdf"
         }
     },
     {
